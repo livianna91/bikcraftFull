@@ -41,6 +41,11 @@
 
 @media (max-width: 800px) {
 
+  .footer {
+    width: 200px;
+    overflow-y:hidden;
+  }
+
   .header {
     display: grid;
   }
@@ -71,4 +76,11 @@
     padding: 8px 12px;
     font-size: 14px;
   }
-}
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .footer-copy {
+    margin-top: 0px;
+  }
+   }
+
