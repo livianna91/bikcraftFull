@@ -89,9 +89,6 @@
   flex-wrap: wrap;
 }
 
-.bicicleta-ficha li:last-child {
-  border-bottom: none;
-}
 
 .bicicleta-ficha span {
   color: var(--cor-6);
