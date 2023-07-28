@@ -109,16 +109,14 @@
     gap: 20px;
   }
   .bicicleta-informacoes {
-    grid-template-columns: 1fr;
+    grid-template-columns: 3fr 3fr;
     padding: 10px;
-    width: 200px;
+    
   }
 
   .bicicleta-ficha {
-    display: grid;
-    justify-items: left;
-    padding-right: 0px;
-    width: 180px;
+ display: grid;
+ grid-template-columns: 3fr 3fr;
   }
   .bicicleta-ficha li {
     display: grid;
@@ -136,9 +134,7 @@
 }
 
 @media (max-width: 400px) {
-  .bicicleta-informacoes {
-    grid-template-columns: 1fr;
-  }
+
   .bicicleta-comprar {
     grid-template-columns: 1fr;
   }
