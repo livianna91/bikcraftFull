@@ -31,11 +31,12 @@
     
     margin-bottom: 40px;
   }
- .vantagens ul {
+  .vantagens ul {
   
-  grid-template-columns: 1fr 5fr;
-  gap: 40px;
- }
+    grid-template-columns: 3fr 3fr;
+    gap: 40px;
+   }
+ 
  .vantagens ul p {
    max-width: 20ch ;
  }
